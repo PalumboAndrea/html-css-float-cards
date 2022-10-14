@@ -22,7 +22,7 @@ header h1{
     font-family: 'Fredoka-regular';
 }
 
-/* parte presentazione del team */
+/* parte presentazione del team e sezioni*/
 
 main{
     margin: auto;
@@ -37,7 +37,9 @@ main{
 .container img{
     height: 6rem;
     float: left;
-    border-radius: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-right: 0.5rem;
 }
 
 .container{
@@ -52,7 +54,7 @@ main{
 }
 
 .description{
-    padding: 0.5rem 0 0.4rem 6.7rem;
+    padding: 0.5rem 0 0.4rem 0;
 }
 
 div h2,h3{
